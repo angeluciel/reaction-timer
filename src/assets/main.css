@@ -1,0 +1,186 @@
+@import './base.css';
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  padding: 0 2rem;
+  margin: 4rem;
+  justify-content: center;
+}
+
+#app button {
+  color: white;
+  background: #4d4d52;
+  border: none;
+  border-bottom: 0.2rem solid #0faf87;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 2rem;
+  transition: 0.1s ease all;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#app button:focus:active {
+  transform: perspective(0.1rem) scale3d(0.98, 0.98, 1) translate3d(0, 0.2rem, 0);
+  background-color: #4d4d52;
+  border-bottom: 0.2rem solid transparent;
+}
+
+#app button:hover {
+  background: #6b6b6e;
+}
+
+#app button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+#app h1 {
+  display: flex;
+  justify-content: center;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 800) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 0 2rem;
+    margin: 3rem;
+    justify-content: center;
+  }
+
+  #app button {
+    color: white;
+    background: #4d4d52;
+    border: none;
+    border-bottom: 0.2rem solid #0faf87;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 2rem;
+    transition: 0.1s ease all;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+  .buttonDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  #app button:focus:active {
+    transform: perspective(0.1rem) scale3d(0.98, 0.98, 1) translate3d(0, 0.2rem, 0);
+    background-color: #4d4d52;
+    border-bottom: 0.2rem solid transparent;
+  }
+
+  #app button:hover {
+    background: #6b6b6e;
+  }
+
+  #app button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  #app h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 0 2rem;
+    margin: 4rem;
+    justify-content: center;
+  }
+
+  #app button {
+    color: white;
+    background: #4d4d52;
+    border: none;
+    border-bottom: 0.2rem solid #0faf87;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 2rem;
+    transition: 0.1s ease all;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+  .buttonDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  #app button:focus:active {
+    transform: perspective(0.1rem) scale3d(0.98, 0.98, 1) translate3d(0, 0.2rem, 0);
+    background-color: #4d4d52;
+    border-bottom: 0.2rem solid transparent;
+  }
+
+  #app button:hover {
+    background: #6b6b6e;
+  }
+
+  #app button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  #app h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
